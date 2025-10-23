@@ -14,7 +14,7 @@ research_prompt = "You are a Senior Portfolio Manager analyzing companies for in
 
 payload = {
     "message": research_prompt,
-    "research_effort": "standard"
+    "research_effort": "lite"
 }
 
 headers = {
