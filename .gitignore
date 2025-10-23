@@ -1,0 +1,69 @@
+# ------------------------------------
+# 1. Virtual Environments
+# ------------------------------------
+# Ignore the directory where virtual environments are typically stored
+venv/
+.venv/
+env/
+/site/
+
+# ------------------------------------
+# 2. Bytecode and Compiled Files
+# ------------------------------------
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class  # For Jython
+
+# ------------------------------------
+# 3. OS and Editor Files
+# ------------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm/IntelliJ
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------------
+# 4. Logs and Sensitive Data
+# ------------------------------------
+# Logs
+*.log
+*.sqlite
+*.sqlite3
+
+# Environment variables (Crucial for API keys/secrets)
+.env
+.flaskenv
+
+# ------------------------------------
+# 5. Testing and Coverage
+# ------------------------------------
+# Coverage files
+.coverage
+htmlcov/
+.cache/
+
+# pytest cache
+.pytest_cache/
+
+# Tox (automation tool)
+.tox/
+
+# ------------------------------------
+# 6. Distribution and Packaging
+# ------------------------------------
+# Build artifacts
+build/
+dist/
+*.egg-info/
